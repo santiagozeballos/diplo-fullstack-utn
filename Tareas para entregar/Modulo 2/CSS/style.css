@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite; 
+}
+
+h1, h2, footer{
+    color: #DFD6CD;
+    background-color: #373741;
+}
+
+footer{
+    
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a{
+    color:#48489b
+}
+
+a:visited{
+    color: #553071;
+}
+
+a:active{
+    color: red;
+}
