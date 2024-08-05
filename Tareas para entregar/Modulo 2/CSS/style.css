@@ -1,10 +1,110 @@
+/*
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+
+
 body{
     background-color: antiquewhite; 
 }
 
 h1, h2, footer{
+    font-family: "Oswald", sans-serif;
     color: #DFD6CD;
     background-color: #373741;
+
+    border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+
+    box-shadow: -9px 8px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -9px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 8px 5px 0px rgba(0,0,0,0.75);
+
+    padding: 10px;
+    padding-left: 20px;
+
+    border-color: #DFD6CD;
+    /*como hago para que se note el color del borde?*/
+
 }
 
 footer{
@@ -25,3 +125,22 @@ a:visited{
 a:active{
     color: red;
 }
+
+img{
+    border-radius: 31px 31px 31px 31px;
+    -webkit-border-radius: 31px 31px 31px 31px;
+    -moz-border-radius: 31px 31px 31px 31px;
+}
+
+div{
+    padding-left: 20px;    
+}
+
+#icono{
+    color: #DFD6CD
+}
+
+p, ul, li, h3, h4{
+    font-family: "Roboto", sans-serif;
+}
+
