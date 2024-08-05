@@ -1,0 +1,52 @@
+/*
+font-family: "Edu AU VIC WA NT Hand", cursive;
+font-family: "Roboto", sans-serif;
+*/
+
+
+
+
+
+#caja{
+    width: 400px;
+    height: 400px;
+    /*background-color: yellow;*/
+    margin: 150px;
+    background: rgb(2,0,36);
+    background: linear-gradient(319deg, rgba(2,0,36,1) 0%, rgba(235,98,209,1) 42%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    box-sizing: border-box;
+
+    box-shadow: -10px -20px 5px black;
+    /*eje x - eje y - blur - color  */
+    border-radius: 20px;
+    /*parametros: 1 , 2 , 3 y 4*/
+    /*border-radius: 20px 40px;*/
+    /*parametros: 1 y 3 - 2 y 4*/
+    /*border-radius: 20px  30px 40px;*/
+    /*parametros: 1 - 2 y 4 - 3*/
+    /*border-radius: 20px  30px 40px 50px;*/
+    /*parametros: 1 - 2 - 3 - 4*/
+
+    box-shadow: -13px 13px 13px 1px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -13px 13px 13px 1px rgba(0,0,0,0.51);
+    -moz-box-shadow: -13px 13px 13px 1px rgba(0,0,0,0.51);
+}
+
+#texto{
+    column-count: 5;
+    /*column-gap: 100px;*/
+    /*column-rule: 1px solid black;*/
+    background-color: yellow;
+    
+}
+
+#texto p{
+    margin: 0;
+
+}
+
+h2{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: blueviolet;
+}
